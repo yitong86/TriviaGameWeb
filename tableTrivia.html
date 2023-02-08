@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    
+</head>
+<style>
+ div {
+  width: 150px;
+  height: 100px;
+  background-color: pink;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color:pink;}
+  to {background-color: yellow;}
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 60px;
+}
+</style>
+
+<body >
+    
+    <center> <div><h1 >Ranking</h1></div></center>
+    <table border ="1">
+        <tr>
+            <th>ID</th>
+            <th>Palyer</th>
+            <th>Rank</th>
+           
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sophia</td>
+            <td>1 </td>
+           
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>David</td>
+            <td>2 </td>
+           
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Olivia</td>
+            <td>3 </td>
+            
+        </tr>
+    </table>
+    <form id="sophia">
+        <input
+          type="button"
+          onclick="alert(document.forms[0].id);"
+          value="sophia's form" />
+      </form>
+  
+      <form id="david">
+        <input
+          type="button"
+          onclick="alert(document.forms[1].id);"
+          value="david's form" />
+      </form>
+  
+      <form id="olivia">
+        <input
+          type="button"
+          onclick="alert(document.forms[2].id);"
+          value="olivia's form" />
+      </form>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script scr = "C:\Users\Learner_XZHCG317\html\jsSBA\rank.js"></script>
+</body>
+
+</html>

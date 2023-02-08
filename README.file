@@ -1,0 +1,94 @@
+My websie is a trivia gaming website, user can register from my website or they can play game without register.
+Player can see the rank of my game.
+
+HTML
+
+1,HOME PAGE
+2,GAME PAGE
+3,register page
+4,rank page
+
+Use at least 10 different HTML tags
+<form>
+<label>
+<p>
+<h>
+<button>
+<input>
+<div>
+<br>
+<center>
+<span>
+
+Use HTML tables
+rank table
+
+Implement at least two uses for forms
+Radio Buttons
+The <label> Element
+button
+
+Dropped Down Menu 
+registergame.html
+user chose state
+
+Use web fonts
+font-size
+font_family
+
+Use different types of content in the form of text, images, videos, and GIFs
+image text
+
+Use regex validation
+register form
+
+
+CSS
+
+Inline, internal, and external styling
+used
+Use five different CSS selectors
+1 CSS Element Selector
+trivaHome style{}
+2 CSS Id Selector
+triviaHome style{
+
+}
+3 CSS Class Selector
+style.css container{
+
+}
+4 CSS Universal Selector
+triviaHome style{
+
+}
+5 CSS Group Selector
+style h1{
+
+}
+Don’t use too many fonts
+Use colors that complement each other
+registerform.css
+
+Use Flexbox (Optional)
+sttle.css use display:flex
+
+Use animations (Optional)
+tabletrival.css
+
+Javascript
+
+External scripts
+Use variables, if statements, loops, at least one form of collections, functions/call back, and events.
+validation.JS
+trivia1.js
+tabletrivia.html
+
+Use AJAX (Optional) 
+trivia.js
+Use JSON or XML (Optional)
+trivia.js
+result = JSON.parse(xhr.responseText)
+
+Use JQuery (Optional)
+triviahome.html

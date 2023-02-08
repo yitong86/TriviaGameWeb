@@ -1,0 +1,23 @@
+:root{
+    background-color: pink;
+    font-size: 62.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width :100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+}
+.answer_cantianer{
+    color: pink
+}
+.image{
+    margin-left: 700px;
+}
+h1 {  
+    text-align: center;  
+    color: blue;  
+}  

@@ -1,0 +1,39 @@
+:root{
+    background-color: var(--light-c);
+}
+form{
+    background-color:pink;
+    width:400px;
+    margin: 5rem zuto;
+    padding:2em;
+    border-radius: 5px;
+    box-shadow: 1px 0 19px 2px rgba(0,0,0,0.5);
+    
+}
+label{
+    color:black;
+}
+input{
+    color: var(--light-c);
+}
+input::placeholder{
+    color: gray;
+}
+input.notValid{
+    color: red !important;
+    border-bottom: 1px solid red !important;
+}
+h1{
+    background-color: #09A7A1;
+    
+}
+footer{
+    background-color: #09A7A1;
+    color: black;
+    padding: 0.5em;
+    margin-bottom: 10px;
+   
+}
+button{
+    background-color:green;
+}
